@@ -1,3 +1,4 @@
-# COMPLETAR  
-Comparando sus conocimientos antes de hacer la práctica con sus conocimientos después de hacer la tarea, explicar los principales aprendizajes logrados para beneficio de su formación profesional.  
-Si solucionó un problema presentado al realizar la práctica también se debe documentar.
+# COMPLETAR 
+# Comparando sus conocimientos antes de hacer la práctica con sus conocimientos después de hacer la tarea, explicar los principales aprendizajes logrados para beneficio de su formación profesional. Si solucionó un problema presentado al realizar la práctica también se debe documentar.
+
+Realizar este ejercicio proporciona una comprensión práctica y aplicada de la gestión de contenedores y aplicaciones distribuidas. Este conocimiento es valioso no solo para el desarrollo y despliegue de software, sino también para mejorar la colaboración y la eficiencia en equipos de desarrollo que buscan entregar software de alta calidad de manera rápida y confiable.
