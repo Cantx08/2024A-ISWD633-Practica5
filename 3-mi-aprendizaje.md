@@ -1,4 +1,4 @@
 # COMPLETAR 
 # Comparando sus conocimientos antes de hacer la práctica con sus conocimientos después de hacer la tarea, explicar los principales aprendizajes logrados para beneficio de su formación profesional. Si solucionó un problema presentado al realizar la práctica también se debe documentar.
 
-Realizar este ejercicio proporciona una comprensión práctica y aplicada de la gestión de contenedores y aplicaciones distribuidas. Este conocimiento es valioso no solo para el desarrollo y despliegue de software, sino también para mejorar la colaboración y la eficiencia en equipos de desarrollo que buscan entregar software de alta calidad de manera rápida y confiable.
+Después de realizar la práctica entendí de mejor manera el uso de docker compose para la configuración de servicios mediante archivos yaml, además de repasar conocimientos obtenidos en prácticas anteriores como la configuración de volúmenes, contenedores, imágenes y redes. También he podido aprender más a detalle como el uso de health checks permite  llevar de mejor manera el estado y disponibilidad de servicios en Docker, permitiendo la correcta ejecución de estos.
