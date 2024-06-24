@@ -1,4 +1,4 @@
-version: '3.8'
+# version: '3.8'
 
 services:
   mysql-service:
@@ -6,9 +6,9 @@ services:
     container_name: mysql-container
     environment:
       MYSQL_ROOT_PASSWORD: root_password
-      MYSQL_DATABASE: wordpress_database
+      MYSQL_DATABASE: wordpress_db
       MYSQL_USER: wordpress_user
-      MYSQL_PASSWORD: password
+      MYSQL_PASSWORD: wordpress_password
     volumes:
       - mysql-vol:/var/lib/mysql
     networks:
@@ -28,8 +28,8 @@ services:
     environment:
       WORDPRESS_DB_HOST: mysql-service
       WORDPRESS_DB_USER: wordpress_user
-      WORDPRESS_DB_PASSWORD: password
-      WORDPRESS_DB_NAME: wordpress_database
+      WORDPRESS_DB_PASSWORD: wordpress_password
+      WORDPRESS_DB_NAME: wordpress_db
     volumes:
       - wordpress-vol:/var/www/html
     networks:
@@ -44,9 +44,10 @@ services:
     depends_on:
       mysql-service:
         condition: service_healthy
+
 volumes:
-  mysql-data:
-  wordpress-vol:
+  mysql-vol: {}
+  wordpress-vol: {}
 
 networks:
   net-wp:
